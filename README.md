@@ -13,4 +13,4 @@ Demo: Coming soon :)
 
 ## Instalasi
 - npm i
-- node . / nodemon .
+- node app.js
