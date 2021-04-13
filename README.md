@@ -1,7 +1,7 @@
 # twice-api-server
 Sebagai ONCE, saya mendedikasikan proyek ini untuk TWICE. Projek ini adalah API yang berisi informasi-informasi yang berkaitan dengan twice seperti profile member dan informasi album (coming soon).
 
-Demo: Coming soon :)
+Demo: http://twice-api-server.herokuapp.com/
 
 ## Stack
 - Node.js
