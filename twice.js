@@ -117,6 +117,247 @@ const data = {
                 "Tzuyu’s ideal type: Someone who understands the importance of filial piety; Someone who loves me more; Someone who likes puppies; Someone who eats well; Someone who can approach me first"
             ]
         }
+    ],
+    "albums": {
+        "korean": [
+            {
+                title: "Eyes Wide Open",
+                release_date: "October 26, 2020",
+                label: [
+                    "JYP Entertainment",
+                    "Republic Records"
+                ],
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/3/33/Twice_-_Eyes_Wide_Open.jpg",
+                tracks: [
+                    "I CAN'T STOP ME",
+                    "HELL IN HEAVEN",
+                    "UP NO MORE",
+                    "DO WHAT WE LIKE",
+                    "BRING IT BACK",
+                    "BELIEVER",
+                    "QUEEN",
+                    "GO HARD",
+                    "SHOT CLOCK",
+                    "HANDLE IT",
+                    "DEPEND ON YOU",
+                    "SAY SOMETHING",
+                    "BEHIND THE MASK"
+                ],
+                description: "Eyes Wide Open is the second Korean studio album by South Korean girl group Twice. It was released on October 26, 2020, by JYP Entertainment and Republic Records. It is the group's first Korean full-length album in nearly three years, following Twicetagram."
+            },
+            {
+                title: "More & More",
+                release_date: "June 1, 2020",
+                label: [
+                    "JYP Entertainment",
+                    "Republic Records"
+                ],
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/c/c6/More_%26_More_Twice_Digital_Cover_-_TikTok_Version.jpeg",
+                tracks: [
+                    "MORE & MORE",
+                    "OXYGEN",
+                    "FIREWORK",
+                    "MAKE ME GO",
+                    "SHADOW",
+                    "DON'T CALL ME AGAIN",
+                    "SWEET SUMMER DAY"
+                ],
+                description: "More & More is the ninth extended play by South Korean girl group Twice. It was released by JYP Entertainment and Republic Records on June 1, 2020, and features the lead single of the same name. It is their first release with Republic Records."
+            },
+            {
+                title: "Feel Special",
+                release_date: "September 23, 2019",
+                label: "JYP Entertainment",
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/3/33/Twice_-_Feel_Special.png",
+                tracks: [
+                    "FEEL SPECIAL",
+                    "RAINBOW",
+                    "GET LOUD",
+                    "TRICK IT",
+                    "LOVE FOOLISH",
+                    "BREAHTHROUGH (korean version)"
+                ],
+                description: "Feel Special is the eighth extended play by the South Korean girl group Twice. It was released by JYP Entertainment on September 23, 2019, and features the title track of the same name as well as a Korean version of their Japanese single \"Breakthrough\". It follows their April 2019 EP Fancy You."
+            },
+            {
+                title: "Fancy You",
+                release_date: "April 22, 2019",
+                label: "JYP Entertainment",
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/0/09/Twice_-_Fancy_You.png",
+                tracks: [
+                    "FANCY",
+                    "STUCK IN MY HEAD",
+                    "GIRLS LIKE US",
+                    "HOT",
+                    "TURN IT UP",
+                    "STRAWBERRY"
+                ],
+                description: "Fancy You is the seventh extended play by the South Korean girl group Twice. It was released by JYP Entertainment on April 22, 2019, and features the lead single \"Fancy\". The group embarked on a world tour in support of the EP. It follows their 2018 EP Yes or Yes."
+            },
+            {
+                title: "The Year of \"Yes\"",
+                release_date: "December 12, 2018",
+                label: [
+                    "JYP Entertainment",
+                    "Imperial Distribution"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/0/02/The_Year_Of_Yes_Online_Cover.jpg/revision/latest?cb=20181211171120",
+                tracks: [
+                    "THE BEST THING I EVER DID",
+                    "BE AS ONE (korean version)",
+                    "YES OR YES",
+                    "SAY YOU LOVE ME",
+                    "LALALA",
+                    "YOUNG & WILD",
+                    "SUNSET",
+                    "AFTER MOON",
+                    "BDZ (korean version)"
+                ],
+                description: "The Year of \"Yes\" is the reissue of South Korean girl group Twice's sixth EP Yes or Yes. It was released by JYP Entertainment on December 12, 2018. "
+            },
+            {
+                title: "Yes or Yes",
+                release_date: "November 5, 2018",
+                label: [
+                    "JYP Entertainment",
+                    "The Vibe",
+                    "Iconic",
+                    "MonoTree",
+                    "Feeline",
+                    "U Productions",
+                    "Ingrid",
+                    "821 Sound"
+                ],
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/c/c7/Twice_%E2%80%93_Yes_or_Yes.png",
+                tracks: [
+                    "YES OR YES",
+                    "SAY YOU LOVE ME",
+                    "LALALA",
+                    "YOUNG & WILD",
+                    "SUNSET",
+                    "AFTER MOON",
+                    "BDZ (korean version)"
+                ],
+                description: "Yes or Yes is the sixth extended play by the South Korean girl group Twice. It was released on November 5, 2018, by JYP Entertainment and distributed by Iriver. It contains seven tracks, including the lead single of the same name and the Korean version of \"BDZ\"."
+            },
+            {
+                title: "Summer Nights",
+                release_date: "July 9, 2018",
+                label: "JYP Entertainment",
+                album_cover: "https://upload.wikimedia.org/wikipedia/id/b/bf/Twice_Summer_Nights.jpg",
+                tracks: [
+                    "DANCE THE NIGHT AWAY",
+                    "CHILLAX",
+                    "SHOT THRU THE HEART",
+                    "WHAT IS LOVE?",
+                    "SWEET TALKER",
+                    "HO!",
+                    "DEJAVU",
+                    "SAY YES",
+                    "STUCK"
+                ],
+                description: "Summer Nights is the expanded reissue of What Is Love?, the fifth extended play release by South Korean girl group Twice. It was released on July 9, 2018 by JYP Entertainment."
+            },
+            {
+                title: "What is Love?",
+                release_date: "April 9, 2018",
+                label: "JYP Entertainment",
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/1/16/Twice_%E2%80%93_What_Is_Love%3F_cover.jpg",
+                tracks: [
+                    "WHAT IS LOVE?",
+                    "SWEET TALKER",
+                    "HO!",
+                    "DEJAVU",
+                    "SAY YES",
+                    "STUCK"
+                ],
+                description: "What Is Love? is the fifth extended play (EP) by South Korean girl group Twice. The EP was released on April 9, 2018 by JYP Entertainment and is distributed by Iriver. It includes the lead single of the same name produced by Park Jin-young."
+            },
+            {
+                title: "Merry & Happy",
+                release_date: "December 11, 2017",
+                label: [
+                    "JYP Entertainment",
+                    "Studio Instinct",
+                    "Banzak",
+                    "Studio567",
+                    "NUPLAY",
+                    "Heavymental",
+                    "E.one Sound"
+                ],
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/b/b8/Twice-Merry_%26_Happy_%28album_cover%29.jpg",
+                tracks: [
+                    "HEART SHAKER",
+                    "MERRY & HAPPY",
+                    "LIKEY",
+                    "TURTLE",
+                    "MISSING U",
+                    "WOW",
+                    "FFW",
+                    "DING DONG",
+                    "LOOK AT ME",
+                    "ROLLIN'",
+                    "LOVE LINE",
+                    "DON'T GIVE UP",
+                    "YOU IN MY HEART",
+                    "JALJAYO GOOD NIGHT"
+                ],
+                description: "Merry & Happy is the reissue of South Korean girl group Twice's first studio album, Twicetagram. The Christmas-inspired album was released on December 11, 2017."
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            }
+        ],
+        "japanese": "not yet available"
+    },
+    "sources": [
+        "KProfiles",
+        "Google"
     ]
 }
 
