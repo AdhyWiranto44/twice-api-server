@@ -305,55 +305,234 @@ const data = {
                 description: "Merry & Happy is the reissue of South Korean girl group Twice's first studio album, Twicetagram. The Christmas-inspired album was released on December 11, 2017."
             },
             {
-                title: "",
-                release_date: "",
+                title: "Twicetagram",
+                release_date: "October 30, 2017",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Genie Music"
                 ],
-                album_cover: "",
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/e/eb/Twicetagram_album_cover.png",
                 tracks: [
-                    
+                    "LIKEY",
+                    "TURTLE",
+                    "MISSING U",
+                    "WOW",
+                    "FFW",
+                    "DING DONG",
+                    "LOOK AT ME",
+                    "ROLLIN'",
+                    "LOVE LINE",
+                    "DON'T GIVE UP",
+                    "YOU IN MY HEART",
+                    "JALJAYO GOOD NIGHT"
                 ],
-                description: ""
+                description: "Twicetagram is the first Korean studio album by South Korean girl group Twice. It was released on October 30, 2017 by JYP Entertainment and distributed through Genie Music. The title Twicetagram is a reference to their official Instagram account of the same name."
             },
             {
-                title: "",
-                release_date: "",
+                title: "Signal",
+                release_date: "May 15, 2017",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Genie Music"
                 ],
-                album_cover: "",
+                album_cover: "https://upload.wikimedia.org/wikipedia/id/4/4a/TWICE%28%ED%8A%B8%EC%99%80%EC%9D%B4%EC%8A%A4%29_Signal_%28EP%29.jpg",
                 tracks: [
-                    
+                    "SIGNAL",
+                    "ONLY YOU",
+                    "HOLD ME TIGHT",
+                    "EYE EYE EYES",
+                    "SOMEONE LIKE ME"
                 ],
-                description: ""
+                description: "Signal is the fourth extended play (EP) by South Korean girl group Twice. The EP was released on May 15, 2017 by JYP Entertainment and distributed by Genie Music."
             },
             {
-                title: "",
-                release_date: "",
+                title: "Twicecoaster: Lane 2",
+                release_date: "February 20, 2017",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Imperial Distribution"
                 ],
-                album_cover: "",
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/4/42/TWICE-Twicecoaster_Lane_2.jpg",
                 tracks: [
-                    
+                    "KNOCK KNOCK",
+                    "ICE CREAM",
+                    "TT",
+                    "1 TO 10",
+                    "PONYTAIL",
+                    "JELLY JELLY",
+                    "PIT-A-PAT",
+                    "NEXT PAGE",
+                    "ONE IN A MILLION"
                 ],
-                description: ""
+                description: "Twicecoaster: Lane 2 is the reissue of South Korean girl group Twice's third extended play Twicecoaster: Lane 1. It was released digitally and physically on February 20, 2017 by JYP Entertainment. It contains thirteen tracks, including the lead single, \"Knock Knock\"."
             },
             {
-                title: "",
-                release_date: "",
+                title: "Twicecoaster: Lane 1",
+                release_date: "October 24, 2016",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "KT Music"
                 ],
-                album_cover: "",
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/9/93/TWICEcoaster_LANE_1_Cover.jpg",
                 tracks: [
-                    
+                    "TT",
+                    "1 TO 10",
+                    "PONYTAIL",
+                    "JELLY JELLY",
+                    "PIT-A-PAT",
+                    "NEXT PAGE",
+                    "ONE IN A MILLION"
                 ],
-                description: ""
+                description: "Twicecoaster: Lane 1 is the third extended play by South Korean girl group Twice. The EP was released digitally and physically on October 24, 2016 by JYP Entertainment and distributed by KT Music."
+            },
+            {
+                title: "Page Two",
+                release_date: "April 25, 2016",
+                label: [
+                    "JYP Entertainment",
+                    "KT Music"
+                ],
+                album_cover: "https://upload.wikimedia.org/wikipedia/en/0/0d/Page_Two_-_Twice_cover.jpg",
+                tracks: [
+                    "CHEER UP",
+                    "PRECIOUS LOVE",
+                    "TOUCHDOWN",
+                    "TUK TOK",
+                    "WOOHO",
+                    "MY HEADPHONES ON"
+                ],
+                description: "Page Two is the second extended play (EP) by South Korean girl group Twice. The album was released digitally and physically on April 25, 2016 by JYP Entertainment and distributed by KT Music. It is supported by the lead single, \"Cheer Up\" which was produced by South Korean producing duo Black Eyed Pilseung."
+            },
+            {
+                title: "The Story Begins",
+                release_date: "October 20, 2015",
+                label: [
+                    "JYP Entertainment",
+                    "KT Music"
+                ],
+                album_cover: "https://upload.wikimedia.org/wikipedia/pt/thumb/5/5c/The_Story_Begins_-_TWICE.jpg/220px-The_Story_Begins_-_TWICE.jpg",
+                tracks: [
+                    "LIKE OOH-AHH",
+                    "DO IT AGAIN",
+                    "I THINK I'M CRAZY",
+                    "TRUTH",
+                    "CANDY BOY",
+                    "LIKE A FOOL"
+                ],
+                description: "The Story Begins is the debut extended play by South Korean girl group Twice. The album was released digitally and physically on October 20, 2015 by JYP Entertainment and distributed by KT Music."
             }
         ],
-        "japanese": "not yet available"
+        "japanese": [
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            {
+                title: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            
+        ]
     },
     "sources": [
         "KProfiles",
