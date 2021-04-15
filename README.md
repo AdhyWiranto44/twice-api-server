@@ -8,8 +8,14 @@ Demo: http://twice-api-server.herokuapp.com/
 - Express.js
 
 ## URLs
-- Mengambil semua data => http://localhost:3000/
-- Mengambil data member => http://localhost:3000/q/members
+- Index Page => http://twice-api-server.herokuapp.com/
+- All Data => http://twice-api-server.herokuapp.com/all/
+- Members => http://twice-api-server.herokuapp.com/members/
+- Discography (All) => http://twice-api-server.herokuapp.com/discography/
+- Discography (Korean) => http://twice-api-server.herokuapp.com/discography/korean/
+- Discography (Japanese) => http://twice-api-server.herokuapp.com/discography/japanese/
+- Discography (English) => http://twice-api-server.herokuapp.com/discography/english/
+- Sumber => http://twice-api-server.herokuapp.com/sources/
 
 ## Instalasi
 - npm i
