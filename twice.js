@@ -475,7 +475,6 @@ const data = {
                 ],
                 description: "Better (stylized as BETTER) is the 7th Japanese single by South Korean girl group Twice. The single was released on November 18, 2020"
             },
-            
             {
                 title: "#TWICE3",
                 type: "Best Album",
@@ -498,7 +497,6 @@ const data = {
                 ],
                 description: "#TWICE3 is the 3rd best album from Twice. The album was released on September 16, 2020. It is Twice's third self-titled Japan album comes with twelve tracks, including both the Korean and Japanese versions of \"The Best Thing I Ever Did\", \"Fancy\", \"Feel Special\", \"More & More\", \"Stuck In My Head\" and \"21:29\"."
             },
-            
             {
                 title: "Fanfare",
                 type: "Single",
@@ -517,89 +515,227 @@ const data = {
             },
             
             {
-                title: "",
-                type: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
+                title: "&TWICE -Repackage-",
+                type: "Repackage Album",
+                release_date: "February 5, 2020",
+                label: "JYP Entertainment",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/0/06/%26TWICE_Repackage_Regular_Cover.jpg",
                 tracks: [
-                    
+                    "SWING",
+                    "FAKE & TRUE",
+                    "STRONGER",
+                    "BREAKTHROUGH",
+                    "CHANGING!",
+                    "HAPPY HAPPY",
+                    "WHAT YOU WAITING FOR",
+                    "BE OK",
+                    "POLISH",
+                    "HOW U DOIN",
+                    "THE REASON WHY"
                 ],
-                description: ""
+                description: "&TWICE -Repackage- is a repackage of TWICE's second Japanese studio album &TWICE. It was released on February 5, 2020 with \"Swing\" serving as the album's title track."
             },
-            
             {
-                title: "",
-                type: "",
-                release_date: "",
+                title: "&TWICE",
+                type: "Full Album",
+                release_date: "November 20, 2019",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Warner Music Japan"
                 ],
-                album_cover: "",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/2/26/%26TWICE_Album_Cover_Standard_Editioon.png",
                 tracks: [
-                    
+                    "FAKE & TRUE",
+                    "STRONGER",
+                    "BREAKTHROUGH",
+                    "CHANGING!",
+                    "HAPPY HAPPY",
+                    "WHAT YOU WAITING FOR",
+                    "BE OK",
+                    "POLISH",
+                    "HOW U DOIN",
+                    "THE REASON WHY"
                 ],
-                description: ""
+                description: "&TWICE is the second full Japanese album by South Korean girl group Twice. The album was released digitally and physically on November 20, 2019 by Warner Music Japan. The album consists of 10 tracks including the new title track Fake & True as well as Happy Happy and Breakthrough. A repackage featuring the new song Swing was released on February 5, 2020."
             },
-            
             {
-                title: "",
-                type: "",
-                release_date: "",
+                title: "Breakthrough",
+                type: "Single",
+                release_date: "July 24, 2019",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Warner Music Japan"
                 ],
-                album_cover: "",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/c/c4/Breakthrough_Normal_Edition_cover.jpg",
                 tracks: [
-                    
+                    "BREAKTHROUGH",
+                    "FANCY (Japanese ver.)",
+                    "BREAKTHROUGH (Taalthechoi Remix)",
+                    "BREAKTHROUGH (Instrumental)"
                 ],
-                description: ""
+                description: "\"Breakthrough\" is the fifth Japanese single from Twice, the single was released on July 24, 2019."
             },
-            
             {
-                title: "",
-                type: "",
-                release_date: "",
+                title: "Happy Happy",
+                type: "Single",
+                release_date: "July 17, 2019",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Warner Music Japan"
                 ],
-                album_cover: "",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/4/4f/Happy_Happy_Normal_Edition_Cover.jpg",
                 tracks: [
-                    
+                    "HAPPY HAPPY",
+                    "THE BEST THING I EVER DID (Japanese ver.)",
+                    "HAPPY HAPPY (Collapsedone Remix)",
+                    "HAPPY HAPPY (Insstrumental)"
                 ],
-                description: ""
+                description: "\"Happy Happy\" is the fourth Japanese single from Twice, the single was released on on July 17, 2019. The title track Happy Happy is also used for the background music of Twice's endorsement TV commercial \"Qoo\"."
             },
-            
             {
-                title: "",
-                type: "",
-                release_date: "",
+                title: "#TWICE2",
+                type: "Special Album",
+                release_date: "March 6, 2019",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Warner Music Japan"
                 ],
-                album_cover: "",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/9/97/TWICE2_Normal_Edition.jpg",
                 tracks: [
-                    
+                    "LIKEY (Japanese ver.)",
+                    "HEART SHAKER (Japanese ver.)",
+                    "WHAT IS LOVE? (Japanese ver.)",
+                    "DANCE THE NIGHT AWAY (Japanese ver.)",
+                    "YES OR YES (Japanese ver.)",
+                    "LIKEY",
+                    "HEART SHAKER",
+                    "WHAT IS LOVE?",
+                    "DANCE THE NIGHT AWAY",
+                    "YES OR YES"
                 ],
-                description: ""
+                description: "#TWICE2 is a special album from Twice. The album was released on March 6, 2019. Twice's second self-titled Japan album comes with ten tracks, including both the original and Japanese versions of \"Likey\", \"Heart Shaker\", \"What Is Love?\", \"Dance The Night Away\" and \"Yes Or Yes\". \"Likey (Japanese ver.)\" is the titled track of the compilation album and the music video was released on January 11, 2019."
             },
-            
             {
-                title: "",
-                type: "",
-                release_date: "",
+                title: "BDZ -Repackage-",
+                type: "Repackage Album",
+                release_date: "December 26th, 2018",
                 label: [
-                    
+                    "JYP Entertainment",
+                    "Warner Music Japan"
                 ],
-                album_cover: "",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/1/14/BDZRepackage2.jpg",
                 tracks: [
-                    
+                    "STAND BY MY SIDE",
+                    "BDZ",
+                    "ONE MORE TIME",
+                    "CANDY POP",
+                    "L.0.V.E",
+                    "WISHING",
+                    "SAY IT AGAIN",
+                    "WAKE ME UP",
+                    "BE AS ONE",
+                    "BRAND NEW GIRL",
+                    "I WANT YOU BACK"
                 ],
-                description: ""
+                description: "BDZ -Repackage- is a repackage of TWICE's first Japanese full-length album BDZ. It was released on December 26, 2018 with \"Stay By My Side\" serving as the album's title track. \"Stay By My Side\" was digitally pre-released on October 22."
             },
-            
+            {
+                title: "BDZ",
+                type: "Full Album",
+                release_date: "September 12, 2018",
+                label: [
+                    "JYP Entertainment",
+                    "Warner Music Japan"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/e/e4/BDZGroupTeaser3.jpg",
+                tracks: [
+                    "BDZ",
+                    "ONE MORE TIME",
+                    "CANDY POP",
+                    "L.0.V.E",
+                    "WISHING",
+                    "SAY IT AGAIN",
+                    "WAKE ME UP",
+                    "BRAND NEW GIRL",
+                    "BE AS ONE",
+                    "I WANT YOU BACK"
+                ],
+                description: "BDZ (Abbreviation for BullDoZer) is the first full Japanese album by South Korean girl group Twice. The album was released digitally and physically on September 12, 2018 by Warner Music Japan. The album consists of 5 tracks from previous single releases and 5 brand new tracks including their title track \"BDZ\". A repackage including the song Stay By My Side was released on December 26, 2018."
+            },
+            {
+                title: "Wake Me Up",
+                type: "Single",
+                release_date: "May 16, 2018",
+                label: [
+                    "JYP Entertainment",
+                    "Warner Music Japan"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/2/26/WakeMeUp_normal_cover.jpg",
+                tracks: [
+                    "WAKE ME UP",
+                    "PINK LEMONADE",
+                    "WAKE ME UP (Instrumental)",
+                    "PINK LEMONADE (Instrumental)"
+                ],
+                description: "Wake Me Up is the third Japanese single from Twice, released on May 16, 2018. It comes with two tracks \"Wake Me Up\" and \"Pink Lemonade\". Four versions are available: Limited edition A, B, normal version and Japan \"Once\" limited version. The title track ''Wake Me Up'' is also used for the background music of Twice's endorsement TV commercial \"NIKE AIR MAX\"."
+            },
+            {
+                title: "Candy Pop",
+                type: "Single",
+                release_date: "February 7, 2018",
+                label: [
+                    "JYP Entertainment",
+                    "Warner Music Japan"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/d/d6/CandyPop_normal_cover.jpg",
+                tracks: [
+                    "CANDY POP",
+                    "BRAND NEW GIRL",
+                    "CANDY POP (Instrumental)",
+                    "BRAND NEW GIRL (Instrumental)"
+                ],
+                description: "\"Candy Pop\" is the second Japanese single from Twice. The single released on February 7, 2018. It comes with two tracks \"Candy Pop\" and \"BRAND NEW GIRL\". Four versions are available: Limited edition A, B, normal version and Japan \"Once\" limited version. The music video for Candy Pop was released ahead of the single on January 12, 2018. The music video for \"BRAND NEW GIRL\" was released on February 23, 2018."
+            },
+            {
+                title: "One More Time",
+                type: "Single",
+                release_date: "October 18, 2017",
+                label: [
+                    "JYP Entertainment",
+                    "Warner Music Japan"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/a/a7/OneMoreTime_normal_cover.jpg",
+                tracks: [
+                    "ONE MORE TIME",
+                    "LUV ME",
+                    "ONE MORE TIME (Instrumental)",
+                    "LUV ME (Instrumental)"
+                ],
+                description: "One More Time is the first Japanese single from Twice. The single released on the October 18, 2017. It comes with two tracks \"One More Time\" and \"LUV ME\". Three versions are available: Limited edition A, B, and normal version. There is also a version limited to Japan \"Once\" member only, which they can choose between one individual member on the cover, or the Halloween cover. The music video was released ahead of the single on October 5."
+            },
+            {
+                title: "#TWICE",
+                type: "Best Album",
+                release_date: "June 28, 2017",
+                label: [
+                    "JYP Entertainment",
+                    "Warner Music Japan"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/5/59/TWICE_hashtag_normal.PNG",
+                tracks: [
+                    "LIKE OOH-AHH (Japanese ver.)",
+                    "CHEER UP (Japanese ver.)",
+                    "TT (Japanese ver.)",
+                    "KNOCK KNOCK (Japanese ver.)",
+                    "SIGNAL (Japanese ver.)",
+                    "LIKE OOH-AHH",
+                    "CHEER UP",
+                    "TT",
+                    "KNOCK KNOCK",
+                    "SIGNAL"
+                ],
+                description: "#TWICE is the debut Japanese special album from Twice. The album has released on June 28, 2017. Twice's first self-titled Japan album comes with ten tracks including both the original and Japanese versions of all 5 korean chart-sweeping hits from \"Like Ooh-Ahh,\" to \"Signal\". There are three versions: Limited Edition A, B, and Normal version. The two tracks \"Signal\" and \"TT\" are the leading tracks for Japan debut, as both are getting their own music videos"
+            }
         ],
         "english": [
             {
@@ -625,60 +761,7 @@ const data = {
                 album_cover: "https://static.wikia.nocookie.net/twicenation/images/c/cf/More_%26_More_%28English_ver.%29_album_cover.jpg",
                 tracks: "MORE & MORE (English Ver.)",
                 description: "\"More & More (English ver.)\" is the digital single and English release of the original song More & More by Twice. It is the third version of More & More after the original version and the Japanese version."
-            },
-            {
-                title: "",
-                type: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
-                type: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
-                type: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
-                type: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            
+            }
         ]
     },
     "sources": [

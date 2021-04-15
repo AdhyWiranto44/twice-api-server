@@ -4,6 +4,10 @@ const data = require('./twice.js');
 const app = express();
 
 app.get('/', (req, res) => {
+    res.sendFile("./index.html", {root: __dirname});
+})
+
+app.get('/all', (req, res) => {
     res.send(data);
 })
 
@@ -25,13 +29,20 @@ app.get('/discography/:region', (req, res) => {
         case "japanese":
             res.send(data.discography.japanese);
             break;
+        case "english":
+            res.send(data.discography.english);
+            break;
         default:
-            res.send("Invalid request data!");
+            res.send("Invalid data request!");
     }
 })
 
 app.get('/sources', (req, res) => {
     res.send(data.sources);
+})
+
+app.use("/", (req, res) => {
+    res.send("Invalid data request!");
 })
 
 app.listen(process.env.PORT || 3000, () => console.log("http://localhost:3000"));
