@@ -118,10 +118,20 @@ const data = {
             ]
         }
     ],
-    "albums": {
+    "discography": {
         "korean": [
             {
+                title: "Cry For Me",
+                type: "Digital Single",
+                release_date: "December 18, 2020",
+                label: "JYP Entertainment",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/b/b8/Cry_For_Me_digital_single_cover.jpg",
+                tracks: "CRY FOR ME",
+                description: "Cry For Me was originally a song that might have never been released to the world.. but it managed to be saved through performing on MAMA *TWO HEARTS* So because of that, don't be sad ONCE"
+            },
+            {
                 title: "Eyes Wide Open",
+                type: "Full Album",
                 release_date: "October 26, 2020",
                 label: [
                     "JYP Entertainment",
@@ -147,6 +157,7 @@ const data = {
             },
             {
                 title: "More & More",
+                type: "Extended Play",
                 release_date: "June 1, 2020",
                 label: [
                     "JYP Entertainment",
@@ -166,6 +177,7 @@ const data = {
             },
             {
                 title: "Feel Special",
+                type: "Extended Play",
                 release_date: "September 23, 2019",
                 label: "JYP Entertainment",
                 album_cover: "https://upload.wikimedia.org/wikipedia/en/3/33/Twice_-_Feel_Special.png",
@@ -181,6 +193,7 @@ const data = {
             },
             {
                 title: "Fancy You",
+                type: "Extended Play",
                 release_date: "April 22, 2019",
                 label: "JYP Entertainment",
                 album_cover: "https://upload.wikimedia.org/wikipedia/en/0/09/Twice_-_Fancy_You.png",
@@ -196,6 +209,7 @@ const data = {
             },
             {
                 title: "The Year of \"Yes\"",
+                type: "Repackage Album",
                 release_date: "December 12, 2018",
                 label: [
                     "JYP Entertainment",
@@ -217,6 +231,7 @@ const data = {
             },
             {
                 title: "Yes or Yes",
+                type: "Extended Play",
                 release_date: "November 5, 2018",
                 label: [
                     "JYP Entertainment",
@@ -242,6 +257,7 @@ const data = {
             },
             {
                 title: "Summer Nights",
+                type: "Repackage Album",
                 release_date: "July 9, 2018",
                 label: "JYP Entertainment",
                 album_cover: "https://upload.wikimedia.org/wikipedia/id/b/bf/Twice_Summer_Nights.jpg",
@@ -260,6 +276,7 @@ const data = {
             },
             {
                 title: "What is Love?",
+                type: "Extended Play",
                 release_date: "April 9, 2018",
                 label: "JYP Entertainment",
                 album_cover: "https://upload.wikimedia.org/wikipedia/en/1/16/Twice_%E2%80%93_What_Is_Love%3F_cover.jpg",
@@ -275,6 +292,7 @@ const data = {
             },
             {
                 title: "Merry & Happy",
+                type: "Repackage Album",
                 release_date: "December 11, 2017",
                 label: [
                     "JYP Entertainment",
@@ -306,6 +324,7 @@ const data = {
             },
             {
                 title: "Twicetagram",
+                type: "Full Album",
                 release_date: "October 30, 2017",
                 label: [
                     "JYP Entertainment",
@@ -330,6 +349,7 @@ const data = {
             },
             {
                 title: "Signal",
+                type: "Extended Play",
                 release_date: "May 15, 2017",
                 label: [
                     "JYP Entertainment",
@@ -347,6 +367,7 @@ const data = {
             },
             {
                 title: "Twicecoaster: Lane 2",
+                type: "Repackage Album",
                 release_date: "February 20, 2017",
                 label: [
                     "JYP Entertainment",
@@ -368,6 +389,7 @@ const data = {
             },
             {
                 title: "Twicecoaster: Lane 1",
+                type: "Extended Play",
                 release_date: "October 24, 2016",
                 label: [
                     "JYP Entertainment",
@@ -387,6 +409,7 @@ const data = {
             },
             {
                 title: "Page Two",
+                type: "Extended Play",
                 release_date: "April 25, 2016",
                 label: [
                     "JYP Entertainment",
@@ -405,6 +428,7 @@ const data = {
             },
             {
                 title: "The Story Begins",
+                type: "Extended Play",
                 release_date: "October 20, 2015",
                 label: [
                     "JYP Entertainment",
@@ -424,7 +448,187 @@ const data = {
         ],
         "japanese": [
             {
+                title: "Kura Kura",
+                type: "Single",
+                release_date: "May 12, 2021",
+                label: "Warner Music Japan",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/8/8a/KuraKura_Conventional_Disc.jpg",
+                tracks: [
+                    "KURA KURA",
+                    "STRAWBERRY MOON",
+                    "KURA KURA (Instrumental)",
+                    "STRAWBERRY MOON (Instrumental)"
+                ],
+                description: "Kura Kura (Japanese:くら くら; English:Dizziness) is the 8th Japanese single by South Korean girl group Twice. The single is set to be released on May 12, 2021."
+            },
+            {
+                title: "Better",
+                type: "Single Album",
+                release_date: "November 18, 2020",
+                label: "Warner Music Japan",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/5/55/Better_Regular_Edition_A.jpg",
+                tracks: [
+                    "BETTER",
+                    "SCORPION",
+                    "BETTER (Instrumental)",
+                    "SCORPION (Instrumental)"
+                ],
+                description: "Better (stylized as BETTER) is the 7th Japanese single by South Korean girl group Twice. The single was released on November 18, 2020"
+            },
+            
+            {
+                title: "#TWICE3",
+                type: "Best Album",
+                release_date: "September 16, 2020",
+                label: "Warner Music Japan",
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/0/05/Twice3_Promo_3.jpg",
+                tracks: [
+                    "THE BEST THING I EVER DID (Japanese ver.)",
+                    "FANCY (Japanese ver.)",
+                    "FEEL SPECIAL (Japanese ver.)",
+                    "MORE & MORE (Japanese ver.)",
+                    "STUCK IN MY HEAD (Japanese ver.)",
+                    "21:29 (Japanese ver.)",
+                    "THE BEST THING I EVER DID",
+                    "FANCY",
+                    "FEEL SPECIAL",
+                    "MORE & MORE",
+                    "STUCK IN MY HEAD",
+                    "21:29"
+                ],
+                description: "#TWICE3 is the 3rd best album from Twice. The album was released on September 16, 2020. It is Twice's third self-titled Japan album comes with twelve tracks, including both the Korean and Japanese versions of \"The Best Thing I Ever Did\", \"Fancy\", \"Feel Special\", \"More & More\", \"Stuck In My Head\" and \"21:29\"."
+            },
+            
+            {
+                title: "Fanfare",
+                type: "Single",
+                release_date: "July 8, 2020",
+                label: [
+                    "Warner Music Japan"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/6/69/Fanfare_Normal_Edition_Cover.png",
+                tracks: [
+                    "FANFARE",
+                    "MORE & MORE (Japanese ver.)",
+                    "FANFARE (Lee Hae Sol Remix)",
+                    "FANFARE (Instrumental)"
+                ],
+                description: "Fanfare is the 6th Japanese single by South Korean girl group Twice. The single was released on July 8, 2020, and the song \"Fanfare\" and its music video were released on June 19, 2020."
+            },
+            
+            {
                 title: "",
+                type: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            
+            {
+                title: "",
+                type: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            
+            {
+                title: "",
+                type: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            
+            {
+                title: "",
+                type: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            
+            {
+                title: "",
+                type: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            
+            {
+                title: "",
+                type: "",
+                release_date: "",
+                label: [
+                    
+                ],
+                album_cover: "",
+                tracks: [
+                    
+                ],
+                description: ""
+            },
+            
+        ],
+        "english": [
+            {
+                title: "I Can't Stop Me (English ver.)",
+                type: "Digital Single",
+                release_date: "November 30, 2020",
+                label: [
+                    "JYP Entertainment",
+                    "Republic Records"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/d/d6/I_CAN%27T_STOP_ME_%28English_ver.%29_digital_single_cover.jpg",
+                tracks: "I Can't Stop Me (English ver.)",
+                description: "\"I Can't Stop Me (English ver.)\" is the English version of I Can't Stop Me. The song was released on November 30, 2020"
+            },
+            {
+                title: "More & More (English Ver.)",
+                type: "Digital Single",
+                release_date: "August 21, 2020",
+                label: [
+                    "JYP Entertainment",
+                    "Republic Records"
+                ],
+                album_cover: "https://static.wikia.nocookie.net/twicenation/images/c/cf/More_%26_More_%28English_ver.%29_album_cover.jpg",
+                tracks: "MORE & MORE (English Ver.)",
+                description: "\"More & More (English ver.)\" is the digital single and English release of the original song More & More by Twice. It is the third version of More & More after the original version and the Japanese version."
+            },
+            {
+                title: "",
+                type: "",
                 release_date: "",
                 label: [
                     
@@ -437,6 +641,7 @@ const data = {
             },
             {
                 title: "",
+                type: "",
                 release_date: "",
                 label: [
                     
@@ -449,6 +654,7 @@ const data = {
             },
             {
                 title: "",
+                type: "",
                 release_date: "",
                 label: [
                     
@@ -461,66 +667,7 @@ const data = {
             },
             {
                 title: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
-                release_date: "",
-                label: [
-                    
-                ],
-                album_cover: "",
-                tracks: [
-                    
-                ],
-                description: ""
-            },
-            {
-                title: "",
+                type: "",
                 release_date: "",
                 label: [
                     
@@ -536,7 +683,8 @@ const data = {
     },
     "sources": [
         "KProfiles",
-        "Google"
+        "Google",
+        "Wiki Fandom"
     ]
 }
 

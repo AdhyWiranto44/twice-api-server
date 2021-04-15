@@ -11,19 +11,19 @@ app.get('/members', (req, res) => {
     res.send(data.members);
 })
 
-app.get('/albums', (req, res) => {
-    res.send(data.albums);
+app.get('/discography', (req, res) => {
+    res.send(data.discography);
 })
 
-app.get('/albums/:region', (req, res) => {
+app.get('/discography/:region', (req, res) => {
     let region = req.params.region;
     
     switch(region) {
         case "korean":
-            res.send(data.albums.korean);
+            res.send(data.discography.korean);
             break;
         case "japanese":
-            res.send(data.albums.japanese);
+            res.send(data.discography.japanese);
             break;
         default:
             res.send("Invalid request data!");
