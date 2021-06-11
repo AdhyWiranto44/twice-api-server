@@ -8,15 +8,24 @@ app.get('/', (req, res) => {
 })
 
 app.get('/all', (req, res) => {
-    res.send(data);
+    res.status(200).json({
+        "message": "List of members and discographies",
+        "data": data
+    });
 })
 
 app.get('/members', (req, res) => {
-    res.send(data.members);
+    res.status(200).json({
+        "message": "List of TWICE members",
+        "data": data.members
+    });
 })
 
 app.get('/discography', (req, res) => {
-    res.send(data.discography);
+    res.status(200).json({
+        "message": "List of all discography",
+        "data": data.discography
+    });
 })
 
 app.get('/discography/:region', (req, res) => {
@@ -24,25 +33,43 @@ app.get('/discography/:region', (req, res) => {
     
     switch(region) {
         case "korean":
-            res.send(data.discography.korean);
+            res.status(200).json({
+                "message": "List of korean releases",
+                "data": data.discography.korean
+            });
             break;
         case "japanese":
-            res.send(data.discography.japanese);
+            res.status(200).json({
+                "message": "List of japanese releases",
+                "data": data.discography.japanese
+            });
             break;
         case "english":
-            res.send(data.discography.english);
+            res.status(200).json({
+                "message": "List of english releases",
+                "data": data.discography.english
+            });
             break;
         default:
-            res.send("Invalid data request!");
+            res.status(400).json({
+                "message": "Invalid data request!",
+                "data": []
+            });
     }
 })
 
 app.get('/sources', (req, res) => {
-    res.send(data.sources);
+    res.status(200).json({
+        "message": "Sources",
+        "data": data.sources
+    });
 })
 
-app.use("/", (req, res) => {
-    res.send("Invalid data request!");
+app.use("*", (req, res) => {
+    res.status(400).json({
+        "message": "Invalid data request!",
+        "data": []
+    });
 })
 
 app.listen(process.env.PORT || 3000, () => console.log("http://localhost:3000"));
