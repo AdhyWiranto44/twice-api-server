@@ -6,16 +6,16 @@ Demo: http://twice-api.adhywiranto.xyz/
 ## Stack
 - Node.js
 - Express.js
+- Mocha.js
 
-## URLs
-- Index Page => http://twice-api.adhywiranto.xyz/
-- All Data => http://twice-api.adhywiranto.xyz/all/
-- Members => http://twice-api.adhywiranto.xyz/members/
-- Discography (All) => http://twice-api.adhywiranto.xyz/discography/
-- Discography (Korean) => http://twice-api.adhywiranto.xyz/discography/korean/
-- Discography (Japanese) => http://twice-api.adhywiranto.xyz/discography/japanese/
-- Discography (English) => http://twice-api.adhywiranto.xyz/discography/english/
-- Sumber => http://twice-api.adhywiranto.xyz/sources/
+## Endpoints
+- All Data => http://twice-api.adhywiranto.xyz/api/all/
+- Members => http://twice-api.adhywiranto.xyz/api/members/
+- Discography (All) => http://twice-api.adhywiranto.xyz/api/discography/
+- Discography (Korean) => http://twice-api.adhywiranto.xyz/api/discography/korean/
+- Discography (Japanese) => http://twice-api.adhywiranto.xyz/api/discography/japanese/
+- Discography (English) => http://twice-api.adhywiranto.xyz/api/discography/english/
+- Sumber => http://twice-api.adhywiranto.xyz/api/sources/
 
 ## Instalasi
 ```

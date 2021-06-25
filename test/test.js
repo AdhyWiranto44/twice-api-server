@@ -15,43 +15,43 @@ describe("Testing TWICE API", () => {
 			console.log("Executing each requests.");
 		});
 
-		it("GET /all", (done) => {
-			http.get('http://localhost:3000/all', (response) => {
+		it("GET /api/all", (done) => {
+			http.get('http://localhost:3000/api/all', (response) => {
 				assert.strictEqual(response.statusCode, 200);
 				done();
 			});
 		});
 
-		it("GET /members", (done) => {
-			http.get('http://localhost:3000/members', (response) => {
+		it("GET /api/members", (done) => {
+			http.get('http://localhost:3000/api/members', (response) => {
 				assert.strictEqual(response.statusCode, 200);
 				done();
 			});
 		});
 
-		it("GET /discography", (done) => {
-			http.get('http://localhost:3000/discography', (response) => {
+		it("GET /api/discography", (done) => {
+			http.get('http://localhost:3000/api/discography', (response) => {
 				assert.strictEqual(response.statusCode, 200);
 				done();
 			});
 		});
 
-		it("GET /discography/korean", (done) => {
-			http.get('http://localhost:3000/discography/korean', (response) => {
+		it("GET /api/discography/korean", (done) => {
+			http.get('http://localhost:3000/api/discography/korean', (response) => {
 				assert.strictEqual(response.statusCode, 200);
 				done();
 			});
 		});
 
-		it("GET /discography/japanese", (done) => {
-			http.get('http://localhost:3000/discography/japanese', (response) => {
+		it("GET /api/discography/japanese", (done) => {
+			http.get('http://localhost:3000/api/discography/japanese', (response) => {
 				assert.strictEqual(response.statusCode, 200);
 				done();
 			});
 		});
 
-		it("GET /discography/english", (done) => {
-			http.get('http://localhost:3000/discography/english', (response) => {
+		it("GET /api/discography/english", (done) => {
+			http.get('http://localhost:3000/api/discography/english', (response) => {
 				assert.strictEqual(response.statusCode, 200);
 				done();
 			});

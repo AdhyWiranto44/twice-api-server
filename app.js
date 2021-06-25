@@ -7,28 +7,28 @@ app.get('/', (req, res) => {
     res.sendFile("./index.html", {root: __dirname});
 })
 
-app.get('/all', (req, res) => {
+app.get('/api/all', (req, res) => {
     res.status(200).json({
         "message": "List of members and discographies",
         "data": data
     });
 })
 
-app.get('/members', (req, res) => {
+app.get('/api/members', (req, res) => {
     res.status(200).json({
         "message": "List of TWICE members",
         "data": data.members
     });
 })
 
-app.get('/discography', (req, res) => {
+app.get('/api/discography', (req, res) => {
     res.status(200).json({
         "message": "List of all discography",
         "data": data.discography
     });
 })
 
-app.get('/discography/:region', (req, res) => {
+app.get('/api/discography/:region', (req, res) => {
     let region = req.params.region;
     
     switch(region) {
@@ -58,7 +58,7 @@ app.get('/discography/:region', (req, res) => {
     }
 })
 
-app.get('/sources', (req, res) => {
+app.get('/api/sources', (req, res) => {
     res.status(200).json({
         "message": "Sources",
         "data": data.sources
