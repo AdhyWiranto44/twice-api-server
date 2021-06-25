@@ -465,6 +465,26 @@ const data = {
         ],
         "japanese": [
             {
+                "title": "Perfect World",
+                "type": "Full Album",
+                "release_date": "2021-07-28 00:00:00",
+                "label": "Warner Music Japan",
+                "album_cover": "https://static.wikia.nocookie.net/twicenation/images/8/8d/PerfectWorld_Normal_Edition.jpg",
+                "tracks": [
+                    "PERFECT WORLD",
+                    "BETTER",
+                    "GOOD AT LOVE",
+                    "FANFARE",
+                    "KURA KURA",
+                    "FOUR-LEAF CLOVER",
+                    "IN THE SUMMER",
+                    "PIECES OF LOVE",
+                    "THANK YOU, FAMILY",
+                    "PROMISE"
+                ],
+                "description": "Perfect World is the third full Japanese album by South Korean girl group TWICE. The album is set to be released digitally and physically on July 28, 2021 by Warner Music Japan. The album will consist a total of 10 tracks including the new title track, Perfect World, as well as Fanfare, BETTER and Kura Kura."
+            },
+            {
                 "title": "Kura Kura",
                 "type": "Single",
                 "release_date": "2021-05-12 00:00:00",
