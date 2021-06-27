@@ -1,5 +1,5 @@
 const express = require('express');
-const addLog = require('./helpers/add_log.js');
+// const addLog = require('./helpers/add_log.js');
 const data = require('./twice.js');
 
 const app = express();
@@ -8,12 +8,12 @@ app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
 
-app.use('/api/all', (req, res, next) => { addLog(req); next(); })
-app.use('/api/members', (req, res, next) => { addLog(req); next(); })
-app.use('/api/discography', (req, res, next) => { addLog(req); next(); })
-app.use('/api/discography/korean', (req, res, next) => { addLog(req); next(); })
-app.use('/api/discography/japanese', (req, res, next) => { addLog(req); next(); })
-app.use('/api/discography/english', (req, res, next) => { addLog(req); next(); })
+// app.use('/api/all', (req, res, next) => { addLog(req); next(); })
+// app.use('/api/members', (req, res, next) => { addLog(req); next(); })
+// app.use('/api/discography', (req, res, next) => { addLog(req); next(); })
+// app.use('/api/discography/korean', (req, res, next) => { addLog(req); next(); })
+// app.use('/api/discography/japanese', (req, res, next) => { addLog(req); next(); })
+// app.use('/api/discography/english', (req, res, next) => { addLog(req); next(); })
 
 app.get('/', (req, res) => {
     res.render("index", {title: 'TWICE API', currentDate: new Date().getFullYear()});
