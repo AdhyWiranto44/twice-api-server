@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 // const addLog = require('./helpers/add_log.js');
 const data = require('./twice.js');
 
@@ -7,6 +8,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
+app.use(cors());
 
 // app.use('/api/all', (req, res, next) => { addLog(req); next(); })
 // app.use('/api/members', (req, res, next) => { addLog(req); next(); })
@@ -84,4 +86,4 @@ app.use("*", (req, res) => {
     });
 })
 
-app.listen(process.env.PORT || 3000, () => console.log("http://localhost:3000"));
+app.listen(process.env.PORT || 4000, () => console.log("http://localhost:4000"));

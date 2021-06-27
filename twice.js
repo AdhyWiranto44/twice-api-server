@@ -4,7 +4,7 @@ const data = {
             "name": "Nayeon (나연)",
             "birthplace": "Seoul, South Korea",
             "birthday": "1995-09-22 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-3.jpg",
+            "img": "https://i.pinimg.com/originals/93/38/62/9338625e75a2ed844ef941f6753aaabf.jpg",
             "nationality": "Korean",
             "position": "Lead Vocalist, Lead Dancer, Center",
             "facts": [
@@ -17,7 +17,7 @@ const data = {
             "name": "Jeongyeon (정연)",
             "birthplace": "Suwon, South Korea",
             "birthday": "1996-11-01 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-6.jpg",
+            "img": "https://lh3.googleusercontent.com/uc7JGNr1IS3LKIcbrH68lsuP5_OJKjX_dhGxG8Qz0avzt--ek12A7z54R17pVsgcRla05EaL2qQ9EVa2O_tg6rGITZ6CjfQiBCoMsSrxy0Uo2g=w960-rj-nu-e365",
             "nationality": "Korean",
             "position": "Lead Vocalist",
             "facts": [
@@ -30,7 +30,7 @@ const data = {
             "name": "Momo (모모)",
             "birthplace": "Kyōtanabe, Kyoto, Japan",
             "birthday": "1996-11-09 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-8.jpg",
+            "img": "https://pbs.twimg.com/media/ElS1KwMWMAAnGck.jpg",
             "nationality": "Japanese",
             "position": "Main Dancer, Sub Vocalist, Sub Rapper",
             "facts": [
@@ -43,7 +43,7 @@ const data = {
             "name": "Sana (사나)",
             "birthplace": "Tennōji-ku, Osaka, Japan",
             "birthday": "1996-09-29 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-7.jpg",
+            "img": "https://pbs.twimg.com/media/ElS1VqTWoAAYUZa.jpg",
             "nationality": "Japanese",
             "position": "Sub Vocalist",
             "facts": [
@@ -56,7 +56,7 @@ const data = {
             "name": "Jihyo (지효)",
             "birthplace": "Guri, Gyeonggi-do, South Korea",
             "birthday": "1997-02-01 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-2.jpg",
+            "img": "https://pbs.twimg.com/media/ElS1dfKXEAEtWMq.jpg",
             "nationality": "Korean",
             "position": "Leader, Main Vocalist",
             "facts": [
@@ -69,7 +69,7 @@ const data = {
             "name": "Mina (미나)",
             "birthplace": "San Antonio, Texas, United States",
             "birthday": "1997-03-24 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-5.jpg",
+            "img": "https://pbs.twimg.com/media/ElS1pTzWMAMvVgv.jpg",
             "nationality": "Japanese",
             "position": "Main Dancer, Sub Vocalist",
             "facts": [
@@ -82,7 +82,7 @@ const data = {
             "name": "Dahyun (다현)",
             "birthplace": "Seongnam, Gyeonggi-do, South Korea",
             "birthday": "1998-05-28 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-9.jpg",
+            "img": "https://i.pinimg.com/originals/b3/a6/eb/b3a6eb63eca524bfee10d8ea87ff0f4e.jpg",
             "nationality": "Korean",
             "position": "Lead Rapper, Sub Vocalist",
             "facts": [
@@ -95,7 +95,7 @@ const data = {
             "name": "Chaeyoung (채영)",
             "birthplace": "Seoul, South Korea",
             "birthday": "1999-04-23 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-11.jpg",
+            "img": "https://pbs.twimg.com/media/ElS15Q2XEAMKz0R.jpg",
             "nationality": "Korean",
             "position": "Main Rapper, Sub Vocalist",
             "facts": [
@@ -108,7 +108,7 @@ const data = {
             "name": "Tzuyu (쯔위)",
             "birthplace": "Tainan, Taiwan",
             "birthday": "1999-06-14 00:00:00",
-            "img": "https://kprofiles.com/wp-content/uploads/2016/05/TWICE-on-Twitter-10.jpg",
+            "img": "https://i.pinimg.com/originals/57/2e/4a/572e4ad420ec4156c13434566af39a9f.png",
             "nationality": "Taiwanese",
             "position": "Lead Dancer, Sub Vocalist, Visual, Maknae",
             "facts": [
