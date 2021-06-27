@@ -16,7 +16,7 @@ app.use('/api/discography/japanese', (req, res, next) => { addLog(req); next(); 
 app.use('/api/discography/english', (req, res, next) => { addLog(req); next(); })
 
 app.get('/', (req, res) => {
-    res.render("index", {title: 'TWICE API'});
+    res.render("index", {title: 'TWICE API', currentDate: new Date().getFullYear()});
 })
 
 app.get('/api/all', (req, res) => {

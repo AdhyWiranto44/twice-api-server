@@ -47,44 +47,72 @@
 
     <div class="container mt-4">
         <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                      <h5 class="fw-bold mb-0">URLs</h5>
-                    </div>
-                    <div class="card-body bg-light">
-                      <ul>
-                        <li><a href="/api/all">All data</a></li>
-                        <li><a href="/api/members">Members</a></li>
-                        <li><a href="/api/discography">Discography</a></li>
-                        <li><a href="/api/discography/korean">Discography (Korean Releases)</a></li>
-                        <li><a href="/api/discography/japanese">Discography (Japanese Releases)</a></li>
-                        <li><a href="/api/discography/english">Discography (English Releases)</a></li>
-                        <li><a href="/api/sources">Sources</a></li>
-                      </ul>
-                    </div>
+          <div class="col-md-6">
+              <div class="card mb-3 shadow-sm">
+                  <div class="card-header">
+                    <h5 class="fw-bold mb-0">URLs</h5>
+                  </div>
+                  <div class="card-body bg-light">
+                    <ul>
+                      <li><a href="/api/all">All data</a></li>
+                      <li><a href="/api/members">Members</a></li>
+                      <li><a href="/api/discography">Discography</a></li>
+                      <li><a href="/api/discography/korean">Discography (Korean Releases)</a></li>
+                      <li><a href="/api/discography/japanese">Discography (Japanese Releases)</a></li>
+                      <li><a href="/api/discography/english">Discography (English Releases)</a></li>
+                      <li><a href="/api/sources">Sources</a></li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="card mb-3 shadow-sm">
+                  <div class="card-header">
+                      <h5 class="fw-bold mb-0">Endpoints</h5>
+                  </div>
+                  <div class="card-body bg-light">
+                    <ul>
+                      <li><b>All Data</b> <code>=></code> /api/all/</li>
+                      <li><b>Members</b> <code>=></code> /api/members/</li>
+                      <li><b>Discography (All)</b> <code>=></code> /api/discography/</li>
+                      <li><b>Discography (Korean)</b> <code>=></code> /api/discography/korean/</li>
+                      <li><b>Discography (Japanese)</b> <code>=></code> /api/discography/japanese/</li>
+                      <li><b>Discography (English)</b> <code>=></code> /api/discography/english/</li>
+                      <li><b>Sumber</b> <code>=></code> /api/sources/</li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3 shadow-sm">
+                <div class="card-header">
+                  <h5 class="fw-bold mb-0">Cara install</h5>
+                </div>
+                <div class="card-body bg-light">
+                  <h6 class="fw-bold"># Clone repo ini</h6>
+                  <code>git clone https://github.com/AdhyWiranto44/twice-api-server.git</code>
+
+                  <h6 class="fw-bold mt-3"># Install modules</h6>
+                  <code>npm install</code>
+
+                  <h6 class="fw-bold mt-3"># Jalankan</h6>
+                  <code>npm start</code>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h5 class="fw-bold mb-0">Endpoints</h5>
-                    </div>
-                    <div class="card-body bg-light">
-                      <ul>
-                        <li><b>All Data</b> <code>=></code> /api/all/</li>
-                        <li><b>Members</b> <code>=></code> /api/members/</li>
-                        <li><b>Discography (All)</b> <code>=></code> /api/discography/</li>
-                        <li><b>Discography (Korean)</b> <code>=></code> /api/discography/korean/</li>
-                        <li><b>Discography (Japanese)</b> <code>=></code> /api/discography/japanese/</li>
-                        <li><b>Discography (English)</b> <code>=></code> /api/discography/english/</li>
-                        <li><b>Sumber</b> <code>=></code> /api/sources/</li>
-                      </ul>
-                    </div>
-                </div>
+          </div>
+        </div>
+    </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="mt-3 bg-transparent">
+    <div class="container">
+        <div class="row pt-3 border-top">
+            <div class="col-md text-center text-md-left pb-3">
+                <small>Made with &#10084; By Adhy Wiranto. <%= currentDate %></small>
             </div>
         </div>
     </div>
+</footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
