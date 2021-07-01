@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "c510a017-8c53-4b8e-bbe4-b13745a704a9",
+		"name": "twice-api-server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Members Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/members",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"members"
+					],
+					"query": [
+						{
+							"key": "asdasd",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "slug",
+							"value": "minaa",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Member by Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/members?slug=mina",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"members"
+					],
+					"query": [
+						{
+							"key": "slug",
+							"value": "mina"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Korean Release",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/discography/korean",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"discography",
+						"korean"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Korean Release by Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/discography/korean?slug=taste-of-love",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"discography",
+						"korean"
+					],
+					"query": [
+						{
+							"key": "slug",
+							"value": "taste-of-love"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Japanese Release",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/discography/japanese",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"discography",
+						"japanese"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Japanese Release by Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/discography/japanese?slug=perfect-world",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"discography",
+						"japanese"
+					],
+					"query": [
+						{
+							"key": "slug",
+							"value": "perfect-world"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "English Release by Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/discography/english?slug=i-cant-stop-me-english",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"discography",
+						"english"
+					],
+					"query": [
+						{
+							"key": "slug",
+							"value": "i-cant-stop-me-english"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "English Release",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/discography/english",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"discography",
+						"english"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sources",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/sources",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"sources"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
