@@ -2,6 +2,7 @@ const data = {
     "members": [
         {
             "name": "Nayeon (나연)",
+            "slug": "nayeon",
             "birthplace": "Seoul, South Korea",
             "birthday": "1995-09-22 00:00:00",
             "img": "https://i.pinimg.com/originals/93/38/62/9338625e75a2ed844ef941f6753aaabf.jpg",
@@ -15,6 +16,7 @@ const data = {
         },
         {
             "name": "Jeongyeon (정연)",
+            "slug": "jeongyeon",
             "birthplace": "Suwon, South Korea",
             "birthday": "1996-11-01 00:00:00",
             "img": "https://lh3.googleusercontent.com/uc7JGNr1IS3LKIcbrH68lsuP5_OJKjX_dhGxG8Qz0avzt--ek12A7z54R17pVsgcRla05EaL2qQ9EVa2O_tg6rGITZ6CjfQiBCoMsSrxy0Uo2g=w960-rj-nu-e365",
@@ -28,6 +30,7 @@ const data = {
         },
         {
             "name": "Momo (모모)",
+            "slug": "momo",
             "birthplace": "Kyōtanabe, Kyoto, Japan",
             "birthday": "1996-11-09 00:00:00",
             "img": "https://pbs.twimg.com/media/ElS1KwMWMAAnGck.jpg",
@@ -41,6 +44,7 @@ const data = {
         },
         {
             "name": "Sana (사나)",
+            "slug": "sana",
             "birthplace": "Tennōji-ku, Osaka, Japan",
             "birthday": "1996-09-29 00:00:00",
             "img": "https://pbs.twimg.com/media/ElS1VqTWoAAYUZa.jpg",
@@ -54,6 +58,7 @@ const data = {
         },
         {
             "name": "Jihyo (지효)",
+            "slug": "jihyo",
             "birthplace": "Guri, Gyeonggi-do, South Korea",
             "birthday": "1997-02-01 00:00:00",
             "img": "https://pbs.twimg.com/media/ElS1dfKXEAEtWMq.jpg",
@@ -67,6 +72,7 @@ const data = {
         },
         {
             "name": "Mina (미나)",
+            "slug": "mina",
             "birthplace": "San Antonio, Texas, United States",
             "birthday": "1997-03-24 00:00:00",
             "img": "https://pbs.twimg.com/media/ElS1pTzWMAMvVgv.jpg",
@@ -80,6 +86,7 @@ const data = {
         },
         {
             "name": "Dahyun (다현)",
+            "slug": "dahyun",
             "birthplace": "Seongnam, Gyeonggi-do, South Korea",
             "birthday": "1998-05-28 00:00:00",
             "img": "https://i.pinimg.com/originals/b3/a6/eb/b3a6eb63eca524bfee10d8ea87ff0f4e.jpg",
@@ -93,6 +100,7 @@ const data = {
         },
         {
             "name": "Chaeyoung (채영)",
+            "slug": "chaeyoung",
             "birthplace": "Seoul, South Korea",
             "birthday": "1999-04-23 00:00:00",
             "img": "https://pbs.twimg.com/media/ElS15Q2XEAMKz0R.jpg",
@@ -106,6 +114,7 @@ const data = {
         },
         {
             "name": "Tzuyu (쯔위)",
+            "slug": "tzuyu",
             "birthplace": "Tainan, Taiwan",
             "birthday": "1999-06-14 00:00:00",
             "img": "https://i.pinimg.com/originals/57/2e/4a/572e4ad420ec4156c13434566af39a9f.png",
@@ -122,6 +131,7 @@ const data = {
         "korean": [
             {
                 "title": "Taste of Love",
+                "slug": "taste-of-love",
                 "type": "Extended Play",
                 "release_date": "2021-06-11 00:00:00",
                 "label": "JYP Entertainment",
@@ -139,15 +149,17 @@ const data = {
             },
             {
                 "title": "Cry For Me",
+                "slug": "cry-for-me",
                 "type": "Digital Single",
                 "release_date": "2020-12-18 00:00:00",
                 "label": "JYP Entertainment",
                 "album_cover": "https://static.wikia.nocookie.net/twicenation/images/b/b8/Cry_For_Me_digital_single_cover.jpg",
-                "tracks": "CRY FOR ME",
+                "tracks": ["CRY FOR ME"],
                 "description": "Cry For Me was originally a song that might have never been released to the world.. but it managed to be saved through performing on MAMA *TWO HEARTS* So because of that, don't be sad ONCE"
             },
             {
                 "title": "Eyes Wide Open",
+                "slug": "eyes-wide-open",
                 "type": "Full Album",
                 "release_date": "2020-10-26 00:00:00",
                 "label": [
@@ -174,6 +186,7 @@ const data = {
             },
             {
                 "title": "More & More",
+                "slug": "more-and-more",
                 "type": "Extended Play",
                 "release_date": "2020-06-01 00:00:00",
                 "label": [
@@ -194,6 +207,7 @@ const data = {
             },
             {
                 "title": "Feel Special",
+                "slug": "feel-special",
                 "type": "Extended Play",
                 "release_date": "2019-08-23 00:00:00",
                 "label": "JYP Entertainment",
@@ -210,6 +224,7 @@ const data = {
             },
             {
                 "title": "Fancy You",
+                "slug": "fancy-you",
                 "type": "Extended Play",
                 "release_date": "2019-04-22 00:00:00",
                 "label": "JYP Entertainment",
@@ -226,6 +241,7 @@ const data = {
             },
             {
                 "title": "The Year of \"Yes\"",
+                "slug": "the-year-of-yes",
                 "type": "Repackage Album",
                 "release_date": "2018-12-12 00:00:00",
                 "label": [
@@ -248,6 +264,7 @@ const data = {
             },
             {
                 "title": "Yes or Yes",
+                "slug": "yes-or-yes",
                 "type": "Extended Play",
                 "release_date": "2018-11-05 00:00:00",
                 "label": [
@@ -274,6 +291,7 @@ const data = {
             },
             {
                 "title": "Summer Nights",
+                "slug": "summer-nights",
                 "type": "Repackage Album",
                 "release_date": "2018-07-09 00:00:00",
                 "label": "JYP Entertainment",
@@ -293,6 +311,7 @@ const data = {
             },
             {
                 "title": "What is Love?",
+                "slug": "what-is-love",
                 "type": "Extended Play",
                 "release_date": "2018-04-09 00:00:00",
                 "label": "JYP Entertainment",
@@ -309,6 +328,7 @@ const data = {
             },
             {
                 "title": "Merry & Happy",
+                "slug": "merry-and-happy",
                 "type": "Repackage Album",
                 "release_date": "2017-12-11 00:00:00",
                 "label": [
@@ -341,6 +361,7 @@ const data = {
             },
             {
                 "title": "Twicetagram",
+                "slug": "twicetagram",
                 "type": "Full Album",
                 "release_date": "2017-10-30 00:00:00",
                 "label": [
@@ -366,6 +387,7 @@ const data = {
             },
             {
                 "title": "Signal",
+                "slug": "signal",
                 "type": "Extended Play",
                 "release_date": "2017-05-15 00:00:00",
                 "label": [
@@ -384,6 +406,7 @@ const data = {
             },
             {
                 "title": "Twicecoaster: Lane 2",
+                "slug": "twicecoaster-lane-2",
                 "type": "Repackage Album",
                 "release_date": "2017-02-20 00:00:00",
                 "label": [
@@ -406,6 +429,7 @@ const data = {
             },
             {
                 "title": "Twicecoaster: Lane 1",
+                "slug": "twicecoaster-lane-1",
                 "type": "Extended Play",
                 "release_date": "2016-10-24 00:00:00",
                 "label": [
@@ -426,6 +450,7 @@ const data = {
             },
             {
                 "title": "Page Two",
+                "slug": "page-two",
                 "type": "Extended Play",
                 "release_date": "2016-04-25 00:00:00",
                 "label": [
@@ -445,6 +470,7 @@ const data = {
             },
             {
                 "title": "The Story Begins",
+                "slug": "the-story-begins",
                 "type": "Extended Play",
                 "release_date": "2015-10-20 00:00:00",
                 "label": [
@@ -466,6 +492,7 @@ const data = {
         "japanese": [
             {
                 "title": "Perfect World",
+                "slug": "perfect-world",
                 "type": "Full Album",
                 "release_date": "2021-07-28 00:00:00",
                 "label": "Warner Music Japan",
@@ -486,6 +513,7 @@ const data = {
             },
             {
                 "title": "Kura Kura",
+                "slug": "kura-kura",
                 "type": "Single",
                 "release_date": "2021-05-12 00:00:00",
                 "label": "Warner Music Japan",
@@ -500,6 +528,7 @@ const data = {
             },
             {
                 "title": "Better",
+                "slug": "better",
                 "type": "Single Album",
                 "release_date": "2020-11-18 00:00:00",
                 "label": "Warner Music Japan",
@@ -514,6 +543,7 @@ const data = {
             },
             {
                 "title": "#TWICE3",
+                "slug": "sharp-twice-3",
                 "type": "Best Album",
                 "release_date": "2020-09-16 00:00:00",
                 "label": "Warner Music Japan",
@@ -536,6 +566,7 @@ const data = {
             },
             {
                 "title": "Fanfare",
+                "slug": "fanfare",
                 "type": "Single",
                 "release_date": "2020-07-08 00:00:00",
                 "label": [
@@ -553,6 +584,7 @@ const data = {
             
             {
                 "title": "&TWICE -Repackage-",
+                "slug": "and-twice-repackage",
                 "type": "Repackage Album",
                 "release_date": "2020-02-05 00:00:00",
                 "label": "JYP Entertainment",
@@ -574,6 +606,7 @@ const data = {
             },
             {
                 "title": "&TWICE",
+                "slug": "and-twice",
                 "type": "Full Album",
                 "release_date": "2019-11-20 00:00:00",
                 "label": [
@@ -597,6 +630,7 @@ const data = {
             },
             {
                 "title": "Breakthrough",
+                "slug": "breakthrough",
                 "type": "Single",
                 "release_date": "2019-07-24 00:00:00",
                 "label": [
@@ -614,6 +648,7 @@ const data = {
             },
             {
                 "title": "Happy Happy",
+                "slug": "happy-happy",
                 "type": "Single",
                 "release_date": "2019-07-17 00:00:00",
                 "label": [
@@ -631,6 +666,7 @@ const data = {
             },
             {
                 "title": "#TWICE2",
+                "slug": "sharp-twice-2",
                 "type": "Special Album",
                 "release_date": "2019-03-06 00:00:00",
                 "label": [
@@ -654,6 +690,7 @@ const data = {
             },
             {
                 "title": "BDZ -Repackage-",
+                "slug": "bdz-repackage",
                 "type": "Repackage Album",
                 "release_date": "2018-12-26 00:00:00",
                 "label": [
@@ -678,6 +715,7 @@ const data = {
             },
             {
                 "title": "BDZ",
+                "slug": "bdz",
                 "type": "Full Album",
                 "release_date": "2018-09-12 00:00:00",
                 "label": [
@@ -701,6 +739,7 @@ const data = {
             },
             {
                 "title": "Wake Me Up",
+                "slug": "wake-me-up",
                 "type": "Single",
                 "release_date": "2018-05-16 00:00:00",
                 "label": [
@@ -718,6 +757,7 @@ const data = {
             },
             {
                 "title": "Candy Pop",
+                "slug": "candy-boy",
                 "type": "Single",
                 "release_date": "2018-02-07 00:00:00",
                 "label": [
@@ -735,6 +775,7 @@ const data = {
             },
             {
                 "title": "One More Time",
+                "slug": "one-more-time",
                 "type": "Single",
                 "release_date": "2017-10-18 00:00:00",
                 "label": [
@@ -752,6 +793,7 @@ const data = {
             },
             {
                 "title": "#TWICE",
+                "slug": "sharp-twice",
                 "type": "Best Album",
                 "release_date": "2017-06-28 00:00:00",
                 "label": [
@@ -777,6 +819,7 @@ const data = {
         "english": [
             {
                 "title": "I Can't Stop Me (English ver.)",
+                "slug": "i-cant-stop-me-english",
                 "type": "Digital Single",
                 "release_date": "2020-11-30 00:00:00",
                 "label": [
@@ -784,11 +827,12 @@ const data = {
                     "Republic Records"
                 ],
                 "album_cover": "https://static.wikia.nocookie.net/twicenation/images/d/d6/I_CAN%27T_STOP_ME_%28English_ver.%29_digital_single_cover.jpg",
-                "tracks": "I Can't Stop Me (English ver.)",
+                "tracks": ["I Can't Stop Me (English ver.)"],
                 "description": "\"I Can't Stop Me (English ver.)\" is the English version of I Can't Stop Me. The song was released on November 30, 2020"
             },
             {
                 "title": "More & More (English Ver.)",
+                "slug": "more-and-more-english",
                 "type": "Digital Single",
                 "release_date": "2020-08-21 00:00:00",
                 "label": [
@@ -796,7 +840,7 @@ const data = {
                     "Republic Records"
                 ],
                 "album_cover": "https://static.wikia.nocookie.net/twicenation/images/c/cf/More_%26_More_%28English_ver.%29_album_cover.jpg",
-                "tracks": "MORE & MORE (English Ver.)",
+                "tracks": ["MORE & MORE (English Ver.)"],
                 "description": "\"More & More (English ver.)\" is the digital single and English release of the original song More & More by Twice. It is the third version of More & More after the original version and the Japanese version."
             }
         ]
