@@ -17,6 +17,18 @@ Demo: http://twice-api.adhywiranto.xyz/
 - Discography (English) => http://twice-api.adhywiranto.xyz/api/discography/english/
 - Sumber => http://twice-api.adhywiranto.xyz/api/sources/
 
+## Queries
+- Members => http://twice-api.adhywiranto.xyz/api/members/:slug
+- Discography (Korean) => http://twice-api.adhywiranto.xyz/api/discography/korean/:slug
+- Discography (Japanese) => http://twice-api.adhywiranto.xyz/api/discography/japanese/:slug
+- Discography (English) => http://twice-api.adhywiranto.xyz/api/discography/english/:slug
+
+## Example Queries
+- Members => http://twice-api.adhywiranto.xyz/api/members/mina
+- Discography (Korean) => http://twice-api.adhywiranto.xyz/api/discography/korean/taste-of-love
+- Discography (Japanese) => http://twice-api.adhywiranto.xyz/api/discography/japanese/perfect-world
+- Discography (English) => http://twice-api.adhywiranto.xyz/api/discography/english/i-cant-stop-me-english
+
 ## Instalasi
 ```
 npm install
