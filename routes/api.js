@@ -1,15 +1,17 @@
 const express = require('express');
 const router = express.Router();
+const cors = require('cors');
 const data = require('../db/twice.js');
 
-router.get('/all', (req, res) => {
+router.get('/all', cors({origin: true}), (req, res) => {
     res.status(200).json({
         "message": "List of members and discographies",
         "data": data
     });
+    res.end();
 });
 
-router.get('/members', (req, res) => {
+router.get('/members', cors({origin: true}), (req, res) => {
     if (!req.query.slug) {
         res.status(200).json({
             "message": "List of TWICE members",
@@ -36,16 +38,18 @@ router.get('/members', (req, res) => {
             });
         }
     }
+    res.end();
 })
 
-router.get('/discography', (req, res) => {
+router.get('/discography', cors({origin: true}), (req, res) => {
     res.status(200).json({
         "message": "List of all discography",
         "data": data.discography
     });
+    res.end();
 })
 
-router.get('/discography/korean', (req, res) => {
+router.get('/discography/korean', cors({origin: true}), (req, res) => {
     if (!req.query.slug) {
         res.status(200).json({
             "message": "List of korean discography",
@@ -72,9 +76,10 @@ router.get('/discography/korean', (req, res) => {
             });
         }
     }
+    res.end();
 })
 
-router.get('/discography/japanese', (req, res) => {
+router.get('/discography/japanese', cors({origin: true}), (req, res) => {
     if (!req.query.slug) {
         res.status(200).json({
             "message": "List of japanese discography",
@@ -101,9 +106,10 @@ router.get('/discography/japanese', (req, res) => {
             });
         }
     }
+    res.end();
 })
 
-router.get('/discography/english', (req, res) => {
+router.get('/discography/english', cors({origin: true}), (req, res) => {
     if (!req.query.slug) {
         res.status(200).json({
             "message": "List of english discography",
@@ -130,14 +136,15 @@ router.get('/discography/english', (req, res) => {
             });
         }
     }
-
+    res.end();
 })
 
-router.get('/sources', (req, res) => {
+router.get('/sources', cors({origin: true}), (req, res) => {
     res.status(200).json({
         "message": "Sources",
         "data": data.sources
     });
+    res.end();
 })
 
 module.exports = router;
