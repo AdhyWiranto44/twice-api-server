@@ -1,7 +1,12 @@
 # twice-api
 Sebagai ONCE, saya mendedikasikan proyek ini untuk TWICE. Projek ini adalah API yang berisi informasi-informasi yang berkaitan dengan twice seperti profile member dan informasi album.
 
-Demo: http://twice-api.adhywiranto.xyz/
+## Demo
+http://twice-api.adhywiranto.xyz/
+
+## Frontend
+http://twice-api-client.adhywiranto.xyz/
+
 
 ## Stack
 - Node.js
