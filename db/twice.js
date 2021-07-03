@@ -1,7 +1,9 @@
 const data = {
     "members": [
         {
-            "name": "Nayeon (나연)",
+            "name": "Nayeon",
+            "korean_pronunciation": "나연",
+            "real_name": "임나연",
             "slug": "nayeon",
             "birthplace": "Seoul, South Korea",
             "birthday": "1995-09-22 00:00:00",
@@ -15,11 +17,13 @@ const data = {
             ]
         },
         {
-            "name": "Jeongyeon (정연)",
+            "name": "Jeongyeon",
+            "korean_pronunciation": "정연",
+            "real_name": "유정연",
             "slug": "jeongyeon",
             "birthplace": "Suwon, South Korea",
             "birthday": "1996-11-01 00:00:00",
-            "img": "https://lh3.googleusercontent.com/uc7JGNr1IS3LKIcbrH68lsuP5_OJKjX_dhGxG8Qz0avzt--ek12A7z54R17pVsgcRla05EaL2qQ9EVa2O_tg6rGITZ6CjfQiBCoMsSrxy0Uo2g=w960-rj-nu-e365",
+            "img": "https://pbs.twimg.com/media/ElS1EyrXIAEo6kC.jpg",
             "nationality": "Korean",
             "position": "Lead Vocalist",
             "facts": [
@@ -29,7 +33,9 @@ const data = {
             ]
         },
         {
-            "name": "Momo (모모)",
+            "name": "Momo",
+            "korean_pronunciation": "모모",
+            "real_name": "平井 もも",
             "slug": "momo",
             "birthplace": "Kyōtanabe, Kyoto, Japan",
             "birthday": "1996-11-09 00:00:00",
@@ -43,7 +49,9 @@ const data = {
             ]
         },
         {
-            "name": "Sana (사나)",
+            "name": "Sana",
+            "korean_pronunciation": "사나",
+            "real_name": "湊崎 紗夏",
             "slug": "sana",
             "birthplace": "Tennōji-ku, Osaka, Japan",
             "birthday": "1996-09-29 00:00:00",
@@ -57,7 +65,9 @@ const data = {
             ]
         },
         {
-            "name": "Jihyo (지효)",
+            "name": "Jihyo",
+            "korean_pronunciation": "지효",
+            "real_name": "박지효",
             "slug": "jihyo",
             "birthplace": "Guri, Gyeonggi-do, South Korea",
             "birthday": "1997-02-01 00:00:00",
@@ -71,7 +81,9 @@ const data = {
             ]
         },
         {
-            "name": "Mina (미나)",
+            "name": "Mina",
+            "korean_pronunciation": "미나",
+            "real_name": "名井 南",
             "slug": "mina",
             "birthplace": "San Antonio, Texas, United States",
             "birthday": "1997-03-24 00:00:00",
@@ -85,7 +97,9 @@ const data = {
             ]
         },
         {
-            "name": "Dahyun (다현)",
+            "name": "Dahyun",
+            "korean_pronunciation": "다현",
+            "real_name": "김다현",
             "slug": "dahyun",
             "birthplace": "Seongnam, Gyeonggi-do, South Korea",
             "birthday": "1998-05-28 00:00:00",
@@ -99,7 +113,9 @@ const data = {
             ]
         },
         {
-            "name": "Chaeyoung (채영)",
+            "name": "Chaeyoung",
+            "korean_pronunciation": "채영",
+            "real_name": "손채영",
             "slug": "chaeyoung",
             "birthplace": "Seoul, South Korea",
             "birthday": "1999-04-23 00:00:00",
@@ -113,7 +129,9 @@ const data = {
             ]
         },
         {
-            "name": "Tzuyu (쯔위)",
+            "name": "Tzuyu",
+            "korean_pronunciation": "쯔위",
+            "real_name": "周子瑜",
             "slug": "tzuyu",
             "birthplace": "Tainan, Taiwan",
             "birthday": "1999-06-14 00:00:00",
@@ -135,7 +153,7 @@ const data = {
                 "type": "Extended Play",
                 "release_date": "2021-06-11 00:00:00",
                 "label": "JYP Entertainment",
-                "album_cover": "https://static.wikia.nocookie.net/twicenation/images/d/d6/TasteOfLove_Full_Release_Cover.jpg",
+                "album_cover": "https://i.scdn.co/image/ab67616d0000b2732eeed5cdd28da11577ea8bf5",
                 "tracks": [
                     "ALCOHOL-FREE",
                     "FIRST TIME",
