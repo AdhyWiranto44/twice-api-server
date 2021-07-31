@@ -184,7 +184,7 @@ const data = {
                     "JYP Entertainment",
                     "Republic Records"
                 ],
-                "album_cover": "https://upload.wikimedia.org/wikipedia/en/3/33/Twice_-_Eyes_Wide_Open.jpg",
+                "album_cover": "https://i2.wp.com/colorcodedlyrics.com/wp-content/uploads/2020/10/TWICE-Eyes-wide-open-scaled.jpg",
                 "tracks": [
                     "I CAN'T STOP ME",
                     "HELL IN HEAVEN",
@@ -266,7 +266,7 @@ const data = {
                     "JYP Entertainment",
                     "Imperial Distribution"
                 ],
-                "album_cover": "https://static.wikia.nocookie.net/twicenation/images/0/02/The_Year_Of_Yes_Online_Cover.jpg/revision/latest?cb=20181211171120",
+                "album_cover": "https://static.wikia.nocookie.net/twicenation/images/0/02/The_Year_Of_Yes_Online_Cover.jpg",
                 "tracks": [
                     "THE BEST THING I EVER DID",
                     "BE AS ONE (korean version)",
