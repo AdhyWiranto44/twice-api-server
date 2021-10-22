@@ -836,6 +836,26 @@ const data = {
         ],
         "english": [
             {
+                "title": "The Feels",
+                "slug": "the-feels",
+                "type": "Digital Single",
+                "release_date": "2021-10-01 00:00:00",
+                "label": [
+                    "JYP Entertainment",
+                    "Republic Records"
+                ],
+                "album_cover": "https://images.genius.com/32c4481567a733cdf5bd069d90d6bc2e.1000x1000x1.png",
+                "tracks": [
+                    "The Feels",
+                    "The Feels (The Stereotypes Remix)",
+                    "The Feels (Yves V Remix)",
+                    "The Feels (Instrumental)",
+                    "The Feels (The Stereotypes Remix) (Instrumental)",
+                    "The Feels (Yves V Remix) (Instrumental)",
+                ],
+                "description": "The Feels is the first full English digital single by TWICE. The digital single and music video were released on October 1, 2021."
+            },
+            {
                 "title": "I Can't Stop Me (English ver.)",
                 "slug": "i-cant-stop-me-english",
                 "type": "Digital Single",
